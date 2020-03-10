@@ -13,6 +13,7 @@ function startRace(){
     TweenMax.to("#car1",2,{x:520,ease:Sine.easeOut});
     TweenMax.to("#car1",1.5,{x:500, y:-320,delay:1.7, ease:Sine.easeOut});
     TweenMax.to("#car1",2,{x:-50, y:-300,delay:3, ease:Sine.easeOut});
+    TweenMax.to("car1",2,{y:-50, delay:3, ease:Sine.ease0ut});
 }
 
 
